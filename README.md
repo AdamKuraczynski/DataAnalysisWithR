@@ -1,5 +1,6 @@
 # DataAnalysisWithR
 
+
 This project involves analyzing exam data using the R programming language. The dataset comprises the results of an exam conducted with two groups of students, each with a distinct series of scores. The analysis aims to uncover insights into the performance of students in both groups and compare their exam results. Various statistical techniques will be employed, including measures of central tendency, measures of dispersion, skewness, kurtosis, hypothesis testing, and normality testing using the Kolmogorov-Smirnov test. Additionally, grouped frequency distributions and histograms will be constructed to visualize the empirical distributions of the exam scores.
 
 # Details:
