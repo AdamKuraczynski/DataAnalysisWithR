@@ -27,18 +27,38 @@ An exam was conducted with 2 groups of students. The exam results are presented 
 1. Comparison and Histograms:
 
 <p align="center">
-  <img src="https://github.com/AdamKuraczynski/DataAnalysisWithR/assets/145380612/76ab3f1e-f127-4f56-b626-7043a1b1995d" alt="HistogramGroup1 Photo"> 
-  <img src="Histograms\HistogramGroup1.png" alt="HistogramGroup1 Photo" height=500 width=500> <img src="Histograms\HistogramGroup2.png" alt="HistogramGroup2 Photo" height=500 width=500> 
-</p>
+  <img src="https://github.com/AdamKuraczynski/DataAnalysisWithR/assets/145380612/76ab3f1e-f127-4f56-b626-7043a1b1995d" alt="Photo of table with results comparison" width=650> 
+  <img src="Histograms\HistogramGroup1.png" alt="HistogramGroup1 Photo" height=500 width=650> <img src="Histograms\HistogramGroup2.png" alt="HistogramGroup2 Photo" height=500 width=650> 
+</p>  
 
-3. a  
-![task2](https://github.com/AdamKuraczynski/DataAnalysisWithR/assets/145380612/9a86a3a2-8c2b-4120-bc7b-6ac3dc35c214)
+2. **Null hypothesis:**  
+   **Alternative hypothesis:**   
+<p align="center">
+  <img src="https://github.com/AdamKuraczynski/DataAnalysisWithR/assets/145380612/9a86a3a2-8c2b-4120-bc7b-6ac3dc35c214" alt="Code Results for Task 2">
+</p>  
 
-4. a  
-![task3](https://github.com/AdamKuraczynski/DataAnalysisWithR/assets/145380612/201586d6-69be-404a-b572-2ca04bf00833)
+  **Conclusion:**   
+  
+3. **Null hypothesis:**  
+   **Alternative hypothesis:**    
+<p align="center">
+  <img src="https://github.com/AdamKuraczynski/DataAnalysisWithR/assets/145380612/201586d6-69be-404a-b572-2ca04bf00833" alt="Code Results for Task 3">
+</p>  
 
-5. a  
-![task4](https://github.com/AdamKuraczynski/DataAnalysisWithR/assets/145380612/cd69ff4a-41e3-4ef9-bd1b-cc189779c188)
+  **Conclusion:**   
+  
+4. **Null hypothesis:**  
+   **Alternative hypothesis:**     
+<p align="center">
+  <img src="https://github.com/AdamKuraczynski/DataAnalysisWithR/assets/145380612/cd69ff4a-41e3-4ef9-bd1b-cc189779c188" alt="Code Results for Task 4">
+</p>  
 
-6. a  
-![task5](https://github.com/AdamKuraczynski/DataAnalysisWithR/assets/145380612/d8cc5a60-1e61-4712-986e-d9a6d7a677b9)
+  **Conclusion:**   
+  
+5. **Null hypothesis:**  
+   **Alternative hypothesis:**     
+<p align="center">
+  <img src="https://github.com/AdamKuraczynski/DataAnalysisWithR/assets/145380612/d8cc5a60-1e61-4712-986e-d9a6d7a677b9" alt="Code Results for Task 5">
+</p>  
+
+  **Conclusion:**   
