@@ -1,6 +1,5 @@
 # DataAnalysisWithR
 
-
 This project involves analyzing exam data using the R programming language. The dataset comprises the results of an exam conducted with two groups of students, each with a distinct series of scores. The analysis aims to uncover insights into the performance of students in both groups and compare their exam results. Various statistical techniques will be employed, including measures of central tendency, measures of dispersion, skewness, kurtosis, hypothesis testing, and normality testing using the Kolmogorov-Smirnov test. Additionally, grouped frequency distributions and histograms will be constructed to visualize the empirical distributions of the exam scores.
 
 # Details:
@@ -25,41 +24,58 @@ An exam was conducted with 2 groups of students. The exam results are presented 
 
 # Results:
 
-1. Comparison and Histograms:
+### Task 1
+   Comparison and Histograms:
 
 <p align="center">
   <img src="https://github.com/AdamKuraczynski/DataAnalysisWithR/assets/145380612/76ab3f1e-f127-4f56-b626-7043a1b1995d" alt="Photo of table with results comparison" width=650> 
   <img src="Histograms\HistogramGroup1.png" alt="HistogramGroup1 Photo" height=500 width=650> <img src="Histograms\HistogramGroup2.png" alt="HistogramGroup2 Photo" height=500 width=650> 
-</p>  
+</p> 
 
-2. **Null hypothesis:**  
-   **Alternative hypothesis:**   
+<br><hr>
+
+### Task 2
+  **Null hypothesis:**  The distribution is normal  
+   **Alternative hypothesis:**   The distribution is different than normal  
 <p align="center">
   <img src="https://github.com/AdamKuraczynski/DataAnalysisWithR/assets/145380612/9a86a3a2-8c2b-4120-bc7b-6ac3dc35c214" alt="Code Results for Task 2">
 </p>  
 
   **Conclusion:**   
-  
-3. **Null hypothesis:**  
-   **Alternative hypothesis:**    
+As a result of the conducted test, p-values of 0.1302 for Group1Results and 0.2154 for Group2Results were obtained. Based on these results, it can be concluded that there is not sufficient evidence to reject the null hypothesis for both data groups. Therefore, it can be assumed that both groups have a distribution close to the normal distribution.
+
+<br><hr>
+
+### Task 3
+  **Null hypothesis:**  True mean is equal to 55  
+   **Alternative hypothesis:**   True mean is not equal to 55  
 <p align="center">
   <img src="https://github.com/AdamKuraczynski/DataAnalysisWithR/assets/145380612/201586d6-69be-404a-b572-2ca04bf00833" alt="Code Results for Task 3">
 </p>  
 
   **Conclusion:**   
-  
-4. **Null hypothesis:**  
-   **Alternative hypothesis:**     
+After conducting the test, it can be argued that there is insufficient evidence to reject the null hypothesis that the average number of points obtained by students in Group 1 is 55. The average number of points obtained by students in Group 1 was 62.04, indicating that these results are slightly higher than the hypothetical value of 55. However, based on the results of the t-Student test, it cannot be concluded that the difference between the mean obtained by Group 1 and the value of 55 is statistically significant. Additionally, the 95% confidence interval for the mean number of points ranges from 53.96 to 70.23, meaning that there is 95% certainty that the true value of the mean number of points lies within this interval. Therefore, according to the assumed significance level α = 0.05 and based on the conducted analyses, it can be stated that the average number of points obtained by students in Group 1 was 55.
+
+<br><hr>
+
+### Task 4
+  **Null hypothesis:**  Actual variance is 400  
+   **Alternative hypothesis:**   The actual variance is not equal to 400  
 <p align="center">
   <img src="https://github.com/AdamKuraczynski/DataAnalysisWithR/assets/145380612/cd69ff4a-41e3-4ef9-bd1b-cc189779c188" alt="Code Results for Task 4">
 </p>  
 
   **Conclusion:**   
-  
-5. **Null hypothesis:**  
-   **Alternative hypothesis:**     
+Based on the results of the variance and standard deviation analysis, we can conclude that the standard deviation of the number of points obtained by students in Group 2 is not 20 at the significance level α=0.05.
+
+<br><hr>
+
+### Task 5
+  **Null hypothesis:**  The mean of scores in Group 1 is less than or equal to the mean of scores in Group 2.  
+   **Alternative hypothesis:**    The mean of scores in Group 1 is greater than the mean of scores in Group 2.   
 <p align="center">
   <img src="https://github.com/AdamKuraczynski/DataAnalysisWithR/assets/145380612/d8cc5a60-1e61-4712-986e-d9a6d7a677b9" alt="Code Results for Task 5">
 </p>  
 
   **Conclusion:**   
+Based on the results of the t-Student test, we obtained a p-value of 0.01292. This result is smaller than the assumed significance level of 0.05, indicating that we can reject the null hypothesis and accept the alternative hypothesis. We can conclude that there is a statistically significant difference between the mean scores of the exam in Group 1 and Group 2, indicating that students in Group 1 were better prepared for the exam than students in Group 2.
